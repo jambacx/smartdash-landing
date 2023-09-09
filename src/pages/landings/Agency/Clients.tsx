@@ -19,19 +19,20 @@ const Clients = () => {
                         <Row>
                             <Col lg={12}>
                                 <Badge pill bg="" className="badge-soft-orange px-2 py-1 mb-2">
-                                    Our Customers
+                                    Манай харилцагчид
                                 </Badge>
                             </Col>
                             <Col lg={6}>
                                 <h1 className="display-5 fw-semibold mb-1">
-                                    We are working with fortune top 500 companies
+                                    Доорх байгуулагууд манай үйлчилгээг идэвхитэй хэрэглэж байна.
                                 </h1>
                             </Col>
                             <Col lg={6} className="ps-6">
                                 <p className="mt-2 text-secondary">
-                                    With our powerful set of elements, you can make beautiful and customized WordPress
-                                    websites. Incredible amount of design combinations are possible by Drag & Drop,
-                                    allowing you to be creative without having any design experience.
+                                    Манай үйлчилгээний тусламжтай өөрийн сошиал медиад анализ хийж, хэрэглэгчдийнхээ дуу
+                                    хоолойг сонсон хамгийн ухаалгаар өөрийн сошиал сувгуудаа удирдах боломжтой. Тухайн
+                                    үйлчилгээ нь хэрэглэгчдэд хэрхэн нөлөөлж буй болон санал сэтгэгдэл, сэтгэгдэлд шууд
+                                    хариу өгөх зэрэг олон боломжуудтай.
                                 </p>
                             </Col>
                         </Row>

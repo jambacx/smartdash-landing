@@ -13,23 +13,23 @@ import ac from 'assets/images/brands/ac.jpeg';
 const features: any[] = [
     {
         avatar: 'users',
-        title: 'Improve Customer Experience',
+        title: 'Сэтгэл ханамжийг нэмэгдүүлэх',
         description:
-            'Before we dive into why companies must invest in employee experience (EX), it’s important to understand what this concept entails.',
+            'Хэрэглэгчдийн сэтгэл ханамжинд бодитоор дүгнэлт хийж, таны маркетингад үр дүн авчран хэрэглэгчдэд нөлөөлөх.',
         variant: 'primary',
         containerClass: 'd-flex border-bottom pb-4',
     },
     {
         avatar: 'user-plus',
         title: 'Хэрэглэгчдийн судалгаа',
-        description: 'Detect and analyze specific emotions like joy, sadness, anger, and surprise within comments.',
+        description: 'Хэрэглэгчдийн тухайн нийтлэл, сэтгэгдэлтэй холбоотой сэтгэл ханамж дээр бодитоор дүгнэж, санал болгох.',
         variant: 'success',
         containerClass: 'd-flex border-bottom py-4',
     },
     {
         avatar: 'bar-chart',
-        title: 'Аналитик үзүүлэлт',
-        description: 'A comprehensive suite of tools designed to meet all your analytical needs.',
+        title: 'Сошиал аналитик үзүүлэлт',
+        description: 'Шууд аналитик хийх.',
         variant: 'orange',
         containerClass: 'd-flex pt-4',
     },

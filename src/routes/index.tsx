@@ -80,107 +80,17 @@ const LoadComponent = ({ component: Component }: LoadComponentProps) => (
 const AllRoutes = () => {
     return useRoutes([
         {
-            // root route
             path: '/',
             element: <Root />,
         },
         {
-            // public routes
             path: '/',
             children: [
-                {
-                    path: 'auth',
-                    children: [
-                        { path: 'login', element: <LoadComponent component={Login} /> },
-                        { path: 'signup', element: <LoadComponent component={SignUp} /> },
-                        { path: 'forget-password', element: <LoadComponent component={ForgetPassword} /> },
-                        { path: 'confirm', element: <LoadComponent component={Confirm} /> },
-                        { path: 'logout', element: <LoadComponent component={Logout} /> },
-                    ],
-                },
-                {
-                    path: 'docs',
-                    children: [
-                        { path: 'introduction', element: <LoadComponent component={Introduction} /> },
-                        { path: 'quick-start', element: <LoadComponent component={QuickStart} /> },
-                        { path: 'customization', element: <LoadComponent component={Customization} /> },
-                        { path: 'routing', element: <LoadComponent component={Routing} /> },
-                        { path: 'code-spliting', element: <LoadComponent component={CodeSpliting} /> },
-                        { path: 'change-log', element: <LoadComponent component={ChangeLog} /> },
-
-                        { path: 'colors', element: <LoadComponent component={Colors} /> },
-                        { path: 'typography', element: <LoadComponent component={Typography} /> },
-                        { path: 'bootstrap', element: <LoadComponent component={Bootstrap} /> },
-                        { path: 'custom', element: <LoadComponent component={Custom} /> },
-                        { path: 'plugins', element: <LoadComponent component={Plugins} /> },
-                        { path: 'navbars', element: <LoadComponent component={Navbars} /> },
-                        { path: 'heros', element: <LoadComponent component={Heros} /> },
-                    ],
-                },
                 {
                     path: 'home',
                     element: <LoadComponent component={Home} />,
                 },
-                {
-                    path: 'landing',
-                    children: [
-                        { path: 'app', element: <LoadComponent component={App} /> },
-                        { path: 'saas', element: <LoadComponent component={Saas} /> },
-                        { path: 'saas2', element: <LoadComponent component={Saas2} /> },
-                        { path: 'startup', element: <LoadComponent component={Startup} /> },
-                        { path: 'software', element: <LoadComponent component={Software} /> },
-
-                        { path: 'agency', element: <LoadComponent component={Agency} /> },
-                        { path: 'coworking', element: <LoadComponent component={Coworking} /> },
-                        { path: 'crypto', element: <LoadComponent component={Crypto} /> },
-                        { path: 'marketing', element: <LoadComponent component={Marketing} /> },
-                        { path: 'portfolio', element: <LoadComponent component={Portfolio} /> },
-                    ],
-                },
-                {
-                    path: 'pages',
-                    children: [
-                        {
-                            path: 'blog',
-                            children: [
-                                { path: '', element: <LoadComponent component={Blog} /> },
-                                { path: 'post', element: <LoadComponent component={BlogPost} /> },
-                            ],
-                        },
-                        { path: 'company', element: <LoadComponent component={Company} /> },
-                        { path: 'contact', element: <LoadComponent component={Contact} /> },
-                        { path: 'career', element: <LoadComponent component={Career} /> },
-                        { path: 'pricing', element: <LoadComponent component={Pricing} /> },
-                        {
-                            path: 'portfolio',
-                            children: [
-                                { path: 'grid', element: <LoadComponent component={PortfolioGrid} /> },
-                                { path: 'masonry', element: <LoadComponent component={PortfolioMasonry} /> },
-                                { path: 'item', element: <LoadComponent component={PortfolioItem} /> },
-                            ],
-                        },
-                        { path: 'help', element: <LoadComponent component={HelpDesk} /> },
-                    ],
-                },
-            ],
-        },
-        {
-            // protected routes
-            path: '/',
-            element: <PrivateRoute roles={'Admin'} />,
-            children: [
-                {
-                    path: 'pages',
-                    children: [
-                        {
-                            path: 'account',
-                            children: [
-                                { path: 'dashboard', element: <LoadComponent component={Dashboard} /> },
-                                { path: 'settings', element: <LoadComponent component={Settings} /> },
-                            ],
-                        },
-                    ],
-                },
+                { path: 'contact', element: <LoadComponent component={Contact} /> },
             ],
         },
     ]);

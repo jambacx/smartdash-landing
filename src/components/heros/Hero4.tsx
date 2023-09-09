@@ -10,14 +10,14 @@ const Hero4 = () => {
                 <Row className="align-items-center">
                     <Col lg={5} md={6}>
                         <h1 className="hero-title">
-                            Social commment
-                            <span className="highlight highlight-warning d-inline-block">analyzer</span>
+                            Сошиал аналитик
+                            <span className="highlight highlight-warning d-inline-block">үйлчилгээ</span>
                         </h1>
                         <p className="mt-4 fs-17">AI Solution powered by Mobicom corporation</p>
                         <div className="pt-3 pt-sm-5">
-                            <Button>Get Started</Button>
+                            <Button>Эхлэх</Button>
                             <Button variant="outline-primary" className="ms-2">
-                                Know More
+                                Дэлгэрэнгүй
                             </Button>
                         </div>
                     </Col>

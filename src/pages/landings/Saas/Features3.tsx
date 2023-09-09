@@ -16,50 +16,50 @@ const Features3 = () => {
                     <Col lg={4} md={6}>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
-                            Comment analysis
+                            Сэтгэгдэл аналитик
                         </h6>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
-                            Negative comment alert
+                            Сөрөг сэтгэгдэлд мэдээллэх
                         </h6>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
-                            Multiple pages
-                        </h6>
-                    </Col>
-                    <Col lg={4} md={6}>
-                        <h6 className="fw-medium fs-16 mb-4">
-                            <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
-                            Emotion Recognition
-                        </h6>
-                        <h6 className="fw-medium fs-16 mb-4">
-                            <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
-                            Campaign analysis
-                        </h6>
-                        <h6 className="fw-medium fs-16 mb-4">
-                            <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
-                            Improve Customer Experience
+                            Олон пэйж хуудас удирдах
                         </h6>
                     </Col>
                     <Col lg={4} md={6}>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
-                            Automated Response Suggestions
+                            Реакшион аналитик
                         </h6>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
-                            Real-time Monitoring
+                            Маркетинг аян аналитик
                         </h6>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
-                            Trends analytics
+                            Хэрэглэгчдийн сэтгэл ханамж
+                        </h6>
+                    </Col>
+                    <Col lg={4} md={6}>
+                        <h6 className="fw-medium fs-16 mb-4">
+                            <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
+                            Автомат хариулт санал болгох
+                        </h6>
+                        <h6 className="fw-medium fs-16 mb-4">
+                            <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
+                            Бодитоор шууд хянах
+                        </h6>
+                        <h6 className="fw-medium fs-16 mb-4">
+                            <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
+                            Тренд аналитик
                         </h6>
                     </Col>
                 </Row>
                 <Row className="mt-5 justify-content-center">
                     <Col xs="auto">
                         <Link to="#" className="btn btn-primary mb-2">
-                            Sign Up Now <FeatherIcon className="icon-xs ms-2" icon="arrow-right" />
+                            Бүртгүүлэх <FeatherIcon className="icon-xs ms-2" icon="arrow-right" />
                         </Link>
                     </Col>
                 </Row>

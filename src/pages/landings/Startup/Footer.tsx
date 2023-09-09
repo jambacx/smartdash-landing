@@ -6,9 +6,8 @@ import FeatherIcon from 'feather-icons-react';
 import logo from 'assets/images/logo.png';
 
 const Footer = () => {
-
     console.log();
-    
+
     return (
         <section className="py-3 bg-gradient3 position-relative">
             {/* <Container>
@@ -36,9 +35,7 @@ const Footer = () => {
                         <Link className="navbar-brand me-lg-4 mb-4 me-auto d-flex align-items-center pt-0" to="#">
                             <img src={logo} height="30" alt="" />
                         </Link>
-                        <p className="text-muted w-50">
-                            Make your saas application stand out with high-quality landing page
-                        </p>
+                        <p className="text-muted w-50">Сошиал орчноо өөрийн хүссэнээр ухаалгаар удирдах боломж</p>
                     </Col>
                     <Col xl="auto" sm={4} xs={6}>
                         <div className="ps-xl-5">

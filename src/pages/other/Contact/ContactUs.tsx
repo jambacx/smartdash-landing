@@ -30,7 +30,7 @@ const ContactUs = () => {
     } = methods;
 
     // handle form submission
-    const onSubmit = () => { };
+    const onSubmit = () => {};
 
     return (
         <section className="section pb-lg-7 py-4 position-relative">
@@ -41,7 +41,7 @@ const ContactUs = () => {
                             <Card.Body className="p-xl-5 p-0">
                                 <h2 className="mb-2 mt-0 fw-medium">Let's Talk Further</h2>
                                 <p className="mb-5">
-                                    Please fill out the following form and we will get back to you shortly
+                                    Дараах мэдээллийг бөглөнө үү, бид таньтай тун удахгүй холбогдох болно.
                                 </p>
 
                                 <form onSubmit={handleSubmit(onSubmit)}>
@@ -50,8 +50,8 @@ const ContactUs = () => {
                                             <FormInput
                                                 type="text"
                                                 name="fname"
-                                                label="First Name"
-                                                placeholder="Your First Name"
+                                                label="Нэр"
+                                                placeholder="Нэр"
                                                 containerClass={'mb-3'}
                                                 register={register}
                                                 errors={errors}
@@ -62,8 +62,8 @@ const ContactUs = () => {
                                             <FormInput
                                                 type="text"
                                                 name="lname"
-                                                label="Last Name"
-                                                placeholder="Your Last Name"
+                                                label="Овог"
+                                                placeholder="Овог"
                                                 containerClass={'mb-3'}
                                                 register={register}
                                                 errors={errors}
@@ -74,8 +74,8 @@ const ContactUs = () => {
                                             <FormInput
                                                 type="email"
                                                 name="email"
-                                                label="Email Name"
-                                                placeholder="Your Email"
+                                                label="Мэйл хаяг"
+                                                placeholder="Мэйл хаяг"
                                                 containerClass={'mb-3'}
                                                 register={register}
                                                 errors={errors}
@@ -86,8 +86,8 @@ const ContactUs = () => {
                                             <FormInput
                                                 type="textarea"
                                                 name="message"
-                                                label="Message"
-                                                placeholder="Type Your message..."
+                                                label="Хүсэлт"
+                                                placeholder="Хүсэлтээ энд үлдээнэ үү..."
                                                 rows={5}
                                                 containerClass={'mb-3'}
                                                 register={register}
@@ -97,7 +97,7 @@ const ContactUs = () => {
                                         </Col>
                                         <Col lg="auto" className="mb-0">
                                             <Button type="submit">
-                                                Send
+                                                Илгээх
                                                 <span className="icon icon-xs text-white ms-1">
                                                     <FeatherIcon icon="send" />
                                                 </span>
@@ -122,7 +122,7 @@ const ContactUs = () => {
                                 <FeatherIcon icon="mail" className="icon-dual-primary" />
                             </span>
                             <div className="flex-grow-1">
-                                <h5 className="m-0 fw-medium">Email</h5>
+                                <h5 className="m-0 fw-medium">Мэйл хаяг</h5>
                                 <Link to="#" className="text-muted fw-normal h5 my-1">
                                     youremail@gmail.com
                                 </Link>
@@ -136,9 +136,9 @@ const ContactUs = () => {
                                 <FeatherIcon icon="phone-call" className="icon-dual-orange" />
                             </span>
                             <div className="flex-grow-1">
-                                <h5 className="m-0 fw-medium">Phone</h5>
+                                <h5 className="m-0 fw-medium">Холбогдох дугаар</h5>
                                 <Link to="#" className="text-muted fw-normal h5 my-1">
-                                    +00 123 456 7890
+                                    +976 94110202
                                 </Link>
                             </div>
                         </div>
@@ -150,9 +150,9 @@ const ContactUs = () => {
                                 <FeatherIcon icon="map-pin" className="icon-dual-info" />
                             </span>
                             <div className="flex-grow-1">
-                                <h5 className="m-0 fw-medium">Address</h5>
+                                <h5 className="m-0 fw-medium">Хаяг байршил</h5>
                                 <Link to="#" className="text-muted fw-normal h5 my-1">
-                                    565 Brrom Str, NY
+                                    МПМ цогцолбор, Сүхбаатар дүүрэг, 13-р хороолол
                                 </Link>
                             </div>
                         </div>

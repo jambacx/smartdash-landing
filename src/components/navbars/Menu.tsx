@@ -27,7 +27,7 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
                     Нүүр
                 </NavLink>
             </Nav.Item>
-            <Dropdown as={'li'} className="nav-item">
+            {/* <Dropdown as={'li'} className="nav-item">
                 <Dropdown.Toggle
                     as={Nav.Link}
                     id="navbarLandings"
@@ -182,7 +182,7 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
                         </Col>
                     </Row>
                 </Dropdown.Menu>
-            </Dropdown>
+            </Dropdown> */}
             <Nav.Item as="li">
                 <NavLink to="/home" end className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}>
                     Тусламж
@@ -190,7 +190,10 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
             </Nav.Item>
 
             <Nav.Item as="li">
-                <NavLink to="/home" end className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}>
+                <NavLink
+                    to="/contact"
+                    end
+                    className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}>
                     Холбоо барих
                 </NavLink>
             </Nav.Item>

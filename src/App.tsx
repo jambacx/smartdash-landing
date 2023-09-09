@@ -4,12 +4,11 @@ import AOS from 'aos';
 
 // routes
 import Routes from './routes/Routes';
+import { Navbar3 } from 'components/navbars';
 
 // helpers
 import { configureFakeBackend } from './helpers';
 
-// Themes
-//  For Default import Theme.scss
 import './assets/scss/theme.scss';
 
 const App = () => {
@@ -18,7 +17,11 @@ const App = () => {
     }, []);
 
     configureFakeBackend();
-    return <Routes />;
+    return (
+        <>
+            <Routes />
+        </>
+    );
 };
 
 export default App;

@@ -9,22 +9,12 @@ import ContactUs from './ContactUs';
 const Contact = () => {
     return (
         <>
-            <div className="header-7 bg-gradient2">
-                <Navbar1
-                    hideSearch
-                    fixedWidth
-                    navClass="navbar-light zindex-10"
-                    buttonClass="btn-outline-secondary btn-sm"
-                />
-
+            <div className="header-7 bg-gradient2 mt-3">
                 <Hero />
             </div>
 
             {/* contact us */}
             <ContactUs />
-
-            {/* footer */}
-            <Footer2 />
 
             <BackToTop />
         </>
