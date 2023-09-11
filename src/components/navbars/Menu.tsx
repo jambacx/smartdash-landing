@@ -184,11 +184,10 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
                 </Dropdown.Menu>
             </Dropdown> */}
             <Nav.Item as="li">
-                <NavLink to="/home" end className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}>
+                <NavLink to="/help" end className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}>
                     Тусламж
                 </NavLink>
             </Nav.Item>
-
             <Nav.Item as="li">
                 <NavLink
                     to="/contact"

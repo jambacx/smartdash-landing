@@ -39,7 +39,7 @@ const ContactUs = () => {
                     <Col lg={6}>
                         <Card className="shadow-none">
                             <Card.Body className="p-xl-5 p-0">
-                                <h2 className="mb-2 mt-0 fw-medium">Let's Talk Further</h2>
+                                <h2 className="mb-2 mt-0 fw-medium">Санал хүсэлт илгээх</h2>
                                 <p className="mb-5">
                                     Дараах мэдээллийг бөглөнө үү, бид таньтай тун удахгүй холбогдох болно.
                                 </p>
@@ -111,7 +111,10 @@ const ContactUs = () => {
 
                     <Col lg={{ offset: 1, span: 5 }}>
                         <div style={{ height: '520px' }}>
-                            <GoogleMapReact defaultZoom={12} defaultCenter={{ lat: 40.749179, lng: -73.989276 }} />
+                            <GoogleMapReact
+                                defaultZoom={12}
+                                defaultCenter={{ lat: 47.91882117282365, lng: 106.91757515188598 }}
+                            />
                         </div>
                     </Col>
                 </Row>
@@ -138,7 +141,7 @@ const ContactUs = () => {
                             <div className="flex-grow-1">
                                 <h5 className="m-0 fw-medium">Холбогдох дугаар</h5>
                                 <Link to="#" className="text-muted fw-normal h5 my-1">
-                                    +976 94110202
+                                    +976 99024294
                                 </Link>
                             </div>
                         </div>
@@ -152,7 +155,8 @@ const ContactUs = () => {
                             <div className="flex-grow-1">
                                 <h5 className="m-0 fw-medium">Хаяг байршил</h5>
                                 <Link to="#" className="text-muted fw-normal h5 my-1">
-                                    МПМ цогцолбор, Сүхбаатар дүүрэг, 13-р хороолол
+                                    {/* МПМ цогцолбор, Сүхбаатар дүүрэг, 13-р хороолол */}
+                                    УБ, СБД, 1-р хороо, Юнескогийн гудамж, МПМ цогцолбор
                                 </Link>
                             </div>
                         </div>

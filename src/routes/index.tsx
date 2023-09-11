@@ -91,6 +91,7 @@ const AllRoutes = () => {
                     element: <LoadComponent component={Home} />,
                 },
                 { path: 'contact', element: <LoadComponent component={Contact} /> },
+                { path: 'help', element: <LoadComponent component={HelpDesk} /> },
             ],
         },
     ]);

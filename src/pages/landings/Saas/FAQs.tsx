@@ -14,7 +14,7 @@ const FAQs = () => {
                             FAQs
                         </Badge>
                         <h1 className="display-5 fw-medium">Түгээмэл асуулт хариултууд</h1>
-                        <p className="text-muted mx-auto">Манай үйлчлүүлэгчдэд түгээмэл тохиолддог асуулт хариултууд</p>
+                        <p className="text-muted mx-auto">Манай үйлчлүүлэгчдийн асуудаг түгээмэл асуултуудÏ</p>
                     </Col>
                 </Row>
                 <Row className="justify-content-center mt-5">

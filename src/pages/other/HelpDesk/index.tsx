@@ -16,13 +16,7 @@ import { helpLinks } from './data';
 const HelpDesk = () => {
     return (
         <>
-            <div>
-                <Navbar1
-                    hideSearch
-                    fixedWidth
-                    navClass="navbar-light zindex-10"
-                    buttonClass="btn-outline-secondary btn-sm"
-                />
+            <div className="mt-3">
                 <Hero />
             </div>
 
@@ -41,7 +35,6 @@ const HelpDesk = () => {
             </section>
 
             {/* footer */}
-            <Footer />
 
             <BackToTop />
         </>
