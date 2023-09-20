@@ -48,17 +48,7 @@ const Login = () => {
     return (
         <>
             {user && <Navigate to={redirectUrl} replace />}
-            <AuthLayout
-                hasSlider
-                // bottomLinks={
-                //     <p className="text-muted">
-                //         {t("Don't have an account?")}
-                //         <Link to="/auth/signup" className="text-primary fw-semibold ms-1">
-                //             {t('Sign Up')}
-                //         </Link>
-                //     </p>
-                // }
-            >
+            <AuthLayout hasSlider>
                 <h6 className="h5 mb-0 mt-3">{t('Тавтай морил!')}</h6>
                 <p className="text-muted mt-1 mb-4">
                     {t('Админ самбарт нэвтрэхийн тулд имэйл хаяг, нууц үгээ оруулна уу.')}
@@ -87,13 +77,6 @@ const Login = () => {
                         type="password"
                         name="password"
                         placeholder={t('Password')}
-                        // action={
-                        //     <Link
-                        //         to="/auth/forget-password"
-                        //         className="float-end text-muted text-unline-dashed ms-1 fs-13">
-                        //         {t('Forgot your password?')}
-                        //     </Link>
-                        // }
                         containerClass={'mb-3'}
                     />
 

@@ -112,6 +112,7 @@ const ContactUs = () => {
                     <Col lg={{ offset: 1, span: 5 }}>
                         <div style={{ height: '520px' }}>
                             <GoogleMapReact
+                                bootstrapURLKeys={{ key: 'AIzaSyAZj66OEcOPULMI6izT48UjpfFzCbUdqjQ' }}
                                 defaultZoom={12}
                                 defaultCenter={{ lat: 47.91882117282365, lng: 106.91757515188598 }}
                             />

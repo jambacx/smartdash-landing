@@ -92,6 +92,7 @@ const AllRoutes = () => {
                 },
                 { path: 'contact', element: <LoadComponent component={Contact} /> },
                 { path: 'help', element: <LoadComponent component={HelpDesk} /> },
+                { path: 'auth/login', element: <LoadComponent component={Login} /> },
             ],
         },
     ]);

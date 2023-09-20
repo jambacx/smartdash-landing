@@ -37,20 +37,20 @@ const slides: Slide[] = [
 const slides1: Slide1[] = [
     {
         image: saas1,
-        slideTitle: 'Manage your saas business with ease',
+        slideTitle: 'Сэтгэл ханамжийг нэмэгдүүлэх',
         description:
-            'Make your saas application stand out with high-quality landing page designed and developed by professional.',
+            'Хэрэглэгчдийн сэтгэл ханамжинд бодитоор дүгнэлт хийж, таны маркетингад үр дүн авчран хэрэглэгчдэд нөлөөлөх.',
     },
-    {
-        image: saas2,
-        slideTitle: 'The best way to showcase your mobile app',
-        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.',
-    },
-    {
-        image: saas3,
-        slideTitle: 'Smart Solution that convert Lead to Customer',
-        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.',
-    },
+    // {
+    //     image: saas2,
+    //     slideTitle: 'The best way to showcase your mobile app',
+    //     description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.',
+    // },
+    // {
+    //     image: saas3,
+    //     slideTitle: 'Smart Solution that convert Lead to Customer',
+    //     description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.',
+    // },
 ];
 
 export { slides, slides1 };
