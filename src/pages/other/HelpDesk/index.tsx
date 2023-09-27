@@ -14,7 +14,7 @@ import Footer from 'pages/landings/Startup/Footer';
 const HelpDesk = () => {
     return (
         <>
-            <div className="mt-3">
+            <div>
                 <Navbar3 navClass="navbar-light" fixedWidth buttonClass="btn-secondary btn-sm" />
 
                 <Hero />
