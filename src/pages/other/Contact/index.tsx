@@ -1,22 +1,22 @@
 // components
-import { Navbar1 } from 'components/navbars';
 import BackToTop from 'components/BackToTop';
-import { Footer2 } from 'components/footer';
 
 import Hero from './Hero';
 import ContactUs from './ContactUs';
+import Navbar3 from 'components/navbars/Navbar3';
+import Footer from 'pages/landings/Startup/Footer';
 
 const Contact = () => {
     return (
         <>
-            <div className="header-7 bg-gradient2 mt-3">
+            <div className="header-7 bg-gradient2">
+                <Navbar3 navClass="navbar-light" fixedWidth buttonClass="btn-secondary btn-sm" />
                 <Hero />
             </div>
-
-            {/* contact us */}
             <ContactUs />
 
             <BackToTop />
+            <Footer />
         </>
     );
 };

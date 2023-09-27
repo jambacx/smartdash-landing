@@ -8,11 +8,15 @@ import HelpLinks from './HelpLinks';
 import FAQs from './FAQs';
 import SupportCenter from './SupportCenter';
 import { helpLinks } from './data';
+import Navbar3 from 'components/navbars/Navbar3';
+import Footer from 'pages/landings/Startup/Footer';
 
 const HelpDesk = () => {
     return (
         <>
             <div className="mt-3">
+                <Navbar3 navClass="navbar-light" fixedWidth buttonClass="btn-secondary btn-sm" />
+
                 <Hero />
             </div>
 
@@ -30,6 +34,7 @@ const HelpDesk = () => {
                 </Container>
             </section>
             <BackToTop />
+            <Footer />
         </>
     );
 };

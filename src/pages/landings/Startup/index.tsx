@@ -13,6 +13,8 @@ const Startup = () => {
     return (
         <>
             <div className="header-7">
+                <Navbar3 navClass="navbar-light" fixedWidth buttonClass="btn-secondary btn-sm" />
+
                 {/* <Navbar3 navClass="navbar-light" fixedWidth buttonClass="btn-secondary btn-sm" /> */}
                 <Hero4 />
             </div>
@@ -38,6 +40,7 @@ const Startup = () => {
             {/* CTA - footer */}
 
             <BackToTop />
+            <Footer />
         </>
     );
 };
