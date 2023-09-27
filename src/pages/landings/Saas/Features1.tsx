@@ -83,8 +83,10 @@ const Features1 = ({ features, containerClass }: FeaturesProps) => {
                         <Badge pill bg="" className="badge-soft-primary px-2 py-1">
                             Боломжууд
                         </Badge>
-                        <h1 className="display-5 fw-medium">Сошиал орчноо ухаалгаар удирдах боломж</h1>
-                        <p className="text-muted mx-auto">Сошиал медиа сувгуудаа ухаалгаар удирдах боломж.</p>
+                        <h1 className="display-5 fw-medium">Байгууллагынхаа сошиал хуудсаа ухаалгаар удирд</h1>
+                        <p className="text-muted mx-auto">
+                            Та өөрийн байгууллагын бүх facebook хуудсуудаа Smartdash вебээр хянах боломжтой.
+                        </p>
                     </Col>
                 </Row>
 

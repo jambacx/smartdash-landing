@@ -2,6 +2,7 @@ import { Button, Col, Container, Row } from 'react-bootstrap';
 
 // images
 import Startup from 'assets/images/hero/startup1.svg';
+import { Link } from 'react-router-dom';
 
 const Hero4 = () => {
     return (
@@ -15,7 +16,10 @@ const Hero4 = () => {
                         </h1>
                         <p className="mt-4 fs-17">AI Solution powered by Mobicom corporation</p>
                         <div className="pt-3 pt-sm-5">
-                            <Button>Эхлэх</Button>
+                            {/* <Button>Эхлэх</Button> */}
+                            <Link to="/auth/login" className="btn btn-primary">
+                                Нэвтрэх
+                            </Link>
                             <Button variant="outline-primary" className="ms-2">
                                 Дэлгэрэнгүй
                             </Button>

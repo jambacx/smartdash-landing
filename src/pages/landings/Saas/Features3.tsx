@@ -8,7 +8,7 @@ const Features3 = () => {
             <Container data-aos="fade-up" data-aos-duration="500">
                 <Row className="justify-content-center">
                     <Col className="text-center">
-                        <h3 className="fw-medium mb-5">Олон төрлийн боломж, давуу талуудтай</h3>
+                        <h3 className="fw-medium mb-5">Боломжууд</h3>
                         {/* <h3 className="fw-medium mb-5">Many more powerful features</h3> */}
                     </Col>
                 </Row>
@@ -16,11 +16,11 @@ const Features3 = () => {
                     <Col lg={4} md={6}>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
-                            Сэтгэгдэл аналитик
+                            Коммент анализ
                         </h6>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
-                            Сөрөг сэтгэгдэлд мэдээллэх
+                            Сөрөг сэтгэгдэл мэдээллэх
                         </h6>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
@@ -30,7 +30,7 @@ const Features3 = () => {
                     <Col lg={4} md={6}>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
-                            Реакшион аналитик
+                            Хэрэглэгчийн хандлагын анализ
                         </h6>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />

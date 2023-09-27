@@ -60,15 +60,12 @@ const Login = () => {
                     </Alert>
                 )}
 
-                <VerticalForm<UserData>
-                    onSubmit={onSubmit}
-                    resolver={schemaResolver}
-                    defaultValues={{ email: 'prompt@coderthemes.com', password: 'test' }}>
+                <VerticalForm<UserData> onSubmit={onSubmit} resolver={schemaResolver}>
                     <FormInput
                         type="email"
                         name="email"
                         label={t('Мэйл хаяг')}
-                        placeholder={t('Email')}
+                        placeholder={t('Мэйл хаяг')}
                         containerClass={'mb-3'}
                     />
 
@@ -76,7 +73,7 @@ const Login = () => {
                         label={t('Нууц үг')}
                         type="password"
                         name="password"
-                        placeholder={t('Password')}
+                        placeholder={t('Нууц үг')}
                         containerClass={'mb-3'}
                     />
 

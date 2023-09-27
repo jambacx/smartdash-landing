@@ -3,11 +3,9 @@ import { Badge, Col, Container, Row } from 'react-bootstrap';
 // images
 import amazon from 'assets/images/brands/mobicom.svg';
 import google from 'assets/images/brands/voo.svg';
-import paypal from 'assets/images/brands/paypal.svg';
-import spotify from 'assets/images/brands/spotify.svg';
-import shopify from 'assets/images/brands/shopify.svg';
+import paypal from 'assets/images/brands/be.png';
 
-const brands = [amazon, google, paypal, spotify, shopify];
+const brands = [amazon, google, paypal];
 
 const Clients = () => {
     return (
@@ -24,26 +22,28 @@ const Clients = () => {
                             </Col>
                             <Col lg={6}>
                                 <h1 className="display-5 fw-semibold mb-1">
-                                    Доорх байгуулагууд манай үйлчилгээг идэвхитэй хэрэглэж байна.
+                                    Доорх хуудсууд Social comment analyzer үйлчилгээг ашиглаж байна.
                                 </h1>
                             </Col>
                             <Col lg={6} className="ps-6">
                                 <p className="mt-2 text-secondary" style={{ textAlign: 'justify' }}>
-                                    Манай үйлчилгээний тусламжтай өөрийн сошиал медиад анализ хийж, хэрэглэгчдийнхээ дуу
-                                    хоолойг сонсон хамгийн ухаалгаар өөрийн сошиал сувгуудаа удирдах боломжтой. Тухайн
-                                    үйлчилгээ нь хэрэглэгчдэд хэрхэн нөлөөлж буй болон санал сэтгэгдэл, сэтгэгдэлд шууд
-                                    хариу өгөх зэрэг олон боломжуудтай.
+                                    Манай үйлчилгээний тусламжтай өөрийн байгууллагын сошиал хуудсанд анализ хийж,
+                                    хэрэглэгчдийнхээ дуу хоолойг сонсон хамгийн ухаалгаар өөрийн сошиал сувгуудаа
+                                    удирдах боломжтой. таны нийтэлсэн постууд хэрэглэгчдэд хэрхэн нөлөөлж буйг харах
+                                    болон санал сэтгэгдэлд шууд хариу өгөх зэрэг олон боломжуудтай.
                                 </p>
                             </Col>
                         </Row>
                         <Row className="mt-5">
-                            {(brands || []).map((brand, index) => {
-                                return (
-                                    <Col key={index.toString()}>
-                                        <img src={brand} alt="brand" height="48" className="mb-2 mb-xl-0" />
-                                    </Col>
-                                );
-                            })}
+                            <Col>
+                                <img src={amazon} alt="brand" height="48" className="mb-2 mt-2 mb-xl-0" />
+                            </Col>
+                            <Col>
+                                <img src={google} alt="brand" height="48" className="mb-2 mt-2 mb-xl-0" />
+                            </Col>
+                            <Col>
+                                <img src={paypal} alt="brand" height="60" className="mb-2 mb-xl-0" />
+                            </Col>
                         </Row>
                     </Col>
                 </Row>

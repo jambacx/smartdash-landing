@@ -1,16 +1,12 @@
 import { Col, Container, Row } from 'react-bootstrap';
 
 // components
-import { Navbar1 } from 'components/navbars';
 import BackToTop from 'components/BackToTop';
 
 import Hero from './Hero';
 import HelpLinks from './HelpLinks';
 import FAQs from './FAQs';
 import SupportCenter from './SupportCenter';
-import Footer from './Footer';
-
-// dummy data
 import { helpLinks } from './data';
 
 const HelpDesk = () => {
@@ -24,7 +20,7 @@ const HelpDesk = () => {
                 <Container>
                     <Row>
                         <Col lg={8}>
-                            <HelpLinks helpLinks={helpLinks} />
+                            {/* <HelpLinks helpLinks={helpLinks} /> */}
                             <FAQs />
                         </Col>
                         <Col lg={4}>
@@ -33,9 +29,6 @@ const HelpDesk = () => {
                     </Row>
                 </Container>
             </section>
-
-            {/* footer */}
-
             <BackToTop />
         </>
     );

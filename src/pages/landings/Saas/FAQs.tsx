@@ -28,7 +28,7 @@ const FAQs = () => {
                         <div className="rounded d-inline-block py-2 px-3 alert bg-light">
                             <div className="align-items-center">
                                 <div className="text-dark">
-                                    Нэмэлт асуух хүсэлтэй зүйл байвал бидэнтэй холбогдоно уу?{' '}
+                                    Нэмэлт асуух хүсэлтэй зүйл байвал бидэнтэй холбогдоно уу?
                                     {/* <Link to="#">Бидэнтэй холбоо барина уу</Link> */}
                                 </div>
                             </div>

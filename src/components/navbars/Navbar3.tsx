@@ -51,7 +51,7 @@ const Navbar3 = ({ isSticky, navClass, buttonClass, fixedWidth }: Navbar3Props) 
                 id={isSticky ? 'sticky' : ''}
                 collapseOnSelect
                 expand="lg"
-                className={classNames('topnav-menu', navClass)}>
+                className={classNames('topnav-menu mb-3', navClass)}>
                 <Container fluid={!fixedWidth}>
                     <Navbar.Brand href="/">
                         <img
@@ -71,7 +71,7 @@ const Navbar3 = ({ isSticky, navClass, buttonClass, fixedWidth }: Navbar3Props) 
                                     <NavLink
                                         to="/auth/logout"
                                         className="btn btn-sm me-2 fw-medium fs-15 shadow-none text-dark">
-                                        Logout
+                                        Гарах
                                     </NavLink>
                                 </Nav.Item>
                             ) : (
