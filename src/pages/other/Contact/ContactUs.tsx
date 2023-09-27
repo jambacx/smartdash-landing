@@ -40,9 +40,7 @@ const ContactUs = () => {
                         <Card className="shadow-none">
                             <Card.Body className="p-xl-5 p-0">
                                 <h2 className="mb-2 mt-0 fw-medium">Санал хүсэлт илгээх</h2>
-                                <p className="mb-5">
-                                    Дараах мэдээллийг бөглөнө үү, бид таньтай тун удахгүй холбогдох болно.
-                                </p>
+                                <p className="mb-5">Та доорх сувгаар бидэнтэй холбогдоорой.</p>
 
                                 <form onSubmit={handleSubmit(onSubmit)}>
                                     <Row>

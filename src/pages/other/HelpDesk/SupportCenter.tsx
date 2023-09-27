@@ -16,19 +16,19 @@ const SupportCenter = () => {
                 <h5 className="fw-normal">
                     <Link to="/pages/contact" className="text-muted">
                         <FeatherIcon className="icon-xs me-2" icon="message-square" />
-                        Үйлчилгээний нэгдсэн төв
+                        Харилцагч хариуцсан менежер
                     </Link>
                 </h5>
                 <h5 className="fw-normal mt-3">
                     <Link to="#" className="text-muted">
                         <FeatherIcon className="icon-xs me-2" icon="mail" />
-                        merchant@mobicom.mn
+                        accountmanagers@mobicom.mn
                     </Link>
                 </h5>
                 <h5 className="fw-normal mt-3">
                     <Link to="#" className="text-muted">
                         <FeatherIcon className="icon-xs me-2" icon="phone" />
-                        +976 75759944
+                        2222, 1800-2222, 1900-2222
                     </Link>
                 </h5>
             </Card.Body>
