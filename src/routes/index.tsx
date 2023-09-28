@@ -11,6 +11,8 @@ const Home = React.lazy(() => import('../pages/landings/Startup'));
 
 const Contact = React.lazy(() => import('../pages/other/Contact'));
 
+const Services = React.lazy(() => import('../pages/other/Career'));
+
 const HelpDesk = React.lazy(() => import('../pages/other/HelpDesk'));
 
 // docs
@@ -39,6 +41,10 @@ const AllRoutes = () => {
                 {
                     path: 'home',
                     element: <LoadComponent component={Home} />,
+                },
+                {
+                    path: 'services',
+                    element: <LoadComponent component={Services} />,
                 },
                 { path: 'contact', element: <LoadComponent component={Contact} /> },
                 { path: 'help', element: <LoadComponent component={HelpDesk} /> },

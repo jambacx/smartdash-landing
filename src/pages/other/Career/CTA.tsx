@@ -15,7 +15,7 @@ const CTA = () => {
                                     we'll reach out to have interesting conversation!
                                 </p>
                                 <Link to="/pages/contact" className="btn btn-outline-primary mt-4">
-                                    Contact Us
+                                    Холбогдох
                                 </Link>
                             </Card.Body>
                         </Card>

@@ -15,9 +15,9 @@ const Benefits = ({ benefits }: BenefitsProps) => {
                 <Row>
                     <Col className="text-center">
                         <Badge pill bg="" className="badge-soft-primary px-2 py-1">
-                            Benefits
+                            Боломжууд
                         </Badge>
-                        <h1 className="display-5 fw-semibold">We take care of our team</h1>
+                        <h1 className="display-5 fw-semibold">Боломжууд</h1>
                         <p className="text-muted mx-auto">Few benefits from working together</p>
                     </Col>
                 </Row>
@@ -28,8 +28,7 @@ const Benefits = ({ benefits }: BenefitsProps) => {
                                 lg={6}
                                 key={index.toString()}
                                 data-aos="fade-up"
-                                data-aos-duration={(index + (3 + index)) * 100}
-                            >
+                                data-aos-duration={(index + (3 + index)) * 100}>
                                 <div className="d-flex align-items-top pe-sm-5 mt-lg-5 mt-4">
                                     <span className="bg-soft-primary avatar avatar-md rounded icon icon-with-bg icon-sm text-primary me-4 flex-shrink-0">
                                         <FeatherIcon icon={benefit.icon} className="icon-dual-primary" />

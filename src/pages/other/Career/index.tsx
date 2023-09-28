@@ -1,5 +1,5 @@
 // components
-import { Navbar1 } from '../../../components/navbars';
+import { Navbar1, Navbar3 } from '../../../components/navbars';
 import BackToTop from '../../../components/BackToTop';
 import { Footer1 } from '../../../components/footer';
 
@@ -11,17 +11,13 @@ import CTA from './CTA';
 
 // dummy data
 import { benefits, gallery, vacancies } from './data';
+import Footer from 'pages/landings/Startup/Footer';
 
 const Career = () => {
     return (
         <>
             <div className="bg-gradient2 position-relative">
-                <Navbar1
-                    hideSearch
-                    fixedWidth
-                    navClass="navbar-light zindex-10"
-                    buttonClass="btn-outline-secondary btn-sm"
-                />
+                <Navbar3 navClass="navbar-light" fixedWidth buttonClass="btn-secondary btn-sm" />
 
                 <Hero />
             </div>
@@ -30,16 +26,16 @@ const Career = () => {
             <Benefits benefits={benefits} />
 
             {/* culture */}
-            <Culture gallery={gallery} />
+            {/* <Culture gallery={gallery} /> */}
 
             {/* Job */}
-            <Vacancies vacancies={vacancies} />
+            {/* <Vacancies vacancies={vacancies} /> */}
 
             {/* cta */}
             <CTA />
 
             {/* footer */}
-            <Footer1 />
+            <Footer />
 
             <BackToTop />
         </>

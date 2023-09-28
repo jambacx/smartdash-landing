@@ -126,7 +126,7 @@ const ContactUs = () => {
                             <div className="flex-grow-1">
                                 <h5 className="m-0 fw-medium">Мэйл хаяг</h5>
                                 <Link to="#" className="text-muted fw-normal h5 my-1">
-                                    youremail@gmail.com
+                                    accountmanagers@mobicom.mn
                                 </Link>
                             </div>
                         </div>
@@ -140,7 +140,7 @@ const ContactUs = () => {
                             <div className="flex-grow-1">
                                 <h5 className="m-0 fw-medium">Холбогдох дугаар</h5>
                                 <Link to="#" className="text-muted fw-normal h5 my-1">
-                                    +976 99024294
+                                    1800-2222, 1900-2222
                                 </Link>
                             </div>
                         </div>

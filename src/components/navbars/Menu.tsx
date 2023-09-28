@@ -184,6 +184,14 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
                 </Dropdown.Menu>
             </Dropdown> */}
             <Nav.Item as="li">
+                <NavLink
+                    to="/services"
+                    end
+                    className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}>
+                    Үйлчилгээ
+                </NavLink>
+            </Nav.Item>
+            <Nav.Item as="li">
                 <NavLink to="/help" end className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}>
                     Тусламж
                 </NavLink>
