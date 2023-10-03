@@ -24,7 +24,7 @@ const Features3 = () => {
                         </h6>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
-                            Олон пэйж хуудас удирдах
+                            Олон хуудас удирдах
                         </h6>
                     </Col>
                     <Col lg={4} md={6}>
@@ -38,7 +38,7 @@ const Features3 = () => {
                         </h6>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
-                            Хэрэглэгчдийн сэтгэл ханамж
+                            Хэрэглэгчийн сэтгэл ханамж
                         </h6>
                     </Col>
                     <Col lg={4} md={6}>

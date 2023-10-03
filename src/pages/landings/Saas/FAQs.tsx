@@ -13,8 +13,8 @@ const FAQs = () => {
                         <Badge pill bg="" className="badge-soft-primary px-2 py-1">
                             FAQs
                         </Badge>
-                        <h1 className="display-5 fw-medium">Түгээмэл асуулт хариултууд</h1>
-                        <p className="text-muted mx-auto">Манай үйлчлүүлэгчдийн асуудаг түгээмэл асуултуудÏ</p>
+                        <h1 className="display-5 fw-medium">Түгээмэл асуулт хариулт</h1>
+                        <p className="text-muted mx-auto">Манай үйлчлүүлэгчдийн асуудаг түгээмэл асуултууд</p>
                     </Col>
                 </Row>
                 <Row className="justify-content-center mt-5">
@@ -22,7 +22,6 @@ const FAQs = () => {
                         <FAQContent />
                     </Col>
                 </Row>
-
                 <Row className="justify-content-center mt-5">
                     <Col xs="auto">
                         <div className="rounded d-inline-block py-2 px-3 alert bg-light">

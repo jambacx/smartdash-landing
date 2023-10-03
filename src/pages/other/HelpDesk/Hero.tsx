@@ -10,7 +10,7 @@ const Hero = () => {
                         <h1 className="hero-title">Тусламж</h1>
                         <p className="fs-17 text-muted pt-4">
                             Та манай Smartdash үйлчилгээний талаар илүү дэлгэрэнгүй мэдээлэл авахыг хүсвэл байгууллагын
-                            харилцагч хариуцсан менежертэй шууд холбогдох эсвэл accountmanagers@mobicom.mn хаягт
+                            харилцагч хариуцсан менежертэй шууд холбогдох, эсвэл accountmanagers@mobicom.mn хаяг руу
                             хандаарай.
                         </p>
                     </Col>

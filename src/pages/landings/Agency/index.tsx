@@ -10,7 +10,6 @@ import Blog from './Blog';
 import Vacancies from './Vacancies';
 import Footer from './Footer';
 
-// dummy data
 import { blogPosts, jobDetails, services } from './data';
 import { projects } from '../Portfolio/data';
 
