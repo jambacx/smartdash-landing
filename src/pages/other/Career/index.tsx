@@ -1,16 +1,12 @@
 // components
-import { Navbar1, Navbar3 } from '../../../components/navbars';
+import { Navbar3 } from '../../../components/navbars';
 import BackToTop from '../../../components/BackToTop';
-import { Footer1 } from '../../../components/footer';
 
 import Hero from './Hero';
 import Benefits from './Benefits';
-import Culture from './Culture';
-import Vacancies from './Vacancies';
-import CTA from './CTA';
 
 // dummy data
-import { benefits, gallery, vacancies } from './data';
+import { benefits } from './data';
 import Footer from 'pages/landings/Startup/Footer';
 
 const Career = () => {
@@ -32,7 +28,7 @@ const Career = () => {
             {/* <Vacancies vacancies={vacancies} /> */}
 
             {/* cta */}
-            <CTA />
+            {/* <CTA /> */}
 
             {/* footer */}
             <Footer />

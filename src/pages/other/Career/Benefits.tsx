@@ -15,10 +15,10 @@ const Benefits = ({ benefits }: BenefitsProps) => {
                 <Row>
                     <Col className="text-center">
                         <Badge pill bg="" className="badge-soft-primary px-2 py-1">
-                            Боломжууд
+                            Шийдэл
                         </Badge>
-                        <h1 className="display-5 fw-semibold">Боломжууд</h1>
-                        <p className="text-muted mx-auto">Few benefits from working together</p>
+                        <h1 className="display-5 fw-semibold">Давуу талууд</h1>
+                        {/* <p className="text-muted mx-auto">Few benefits from working together</p> */}
                     </Col>
                 </Row>
                 <Row>

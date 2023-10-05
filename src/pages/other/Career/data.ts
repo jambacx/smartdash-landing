@@ -9,34 +9,34 @@ import img4 from 'assets/images/photos/10.jpg';
 
 const benefits: Benefit[] = [
     {
-        icon: 'compass',
-        title: 'Relocation Support',
-        description: "We'll help to move and get settled and handle the visa process for you",
+        icon: 'zap',
+        title: 'Хиймэл оюун ухаан',
+        description: "Компани болон таны хувийн фейсбүүк хуудасны пост, коммент, лайк зэрэг дата мэдээлэлд AI технологиор анализ хийх",
     },
     {
-        icon: 'server',
-        title: 'Technology',
-        description: 'A special training to get start with our technical stack by professionals',
+        icon: 'cloud',
+        title: 'Үүлэн технологи',
+        description: 'Олон улсын хэмжээнд зөвшөөрөгдсөн үүлэн технологи ашиглан, хэрэглэгчдийнхээ дата мэдээллийн аюулгүй байдлыг хангадаг',
     },
     {
-        icon: 'dollar-sign',
-        title: 'Growth budget',
-        description: 'A specific budget for your professionals growth which you spend on throughout the year',
+        icon: 'search',
+        title: 'Коммент анализ',
+        description: "Сошиал хуудсанд анализ хийж, хэрэглэгчдийнхээ дуу хоолойг сонсон, сошиал сувгуудаа ухаалгаар удирдах",
+    },
+    {
+        icon: 'alert-triangle',
+        title: 'Сөрөг сэтгэгдэл мэдээллэх',
+        description: 'Хэрэглэгчийн нийтлэл доорх сөрөг сэтгэгдлүүдэд анализ хийж, нэн даруй мэдээллэх',
     },
     {
         icon: 'users',
-        title: 'Team activities & retreats',
-        description: "Many team building activities and retreat every quarter, so you don't get bored",
+        title: 'Олон хуудас удирдах',
+        description: 'Хэрэглэгч өөрийн олон пэйж хуудсуудыг хялбараар нэгэн зэрэг удирдах',
     },
     {
-        icon: 'map-pin',
-        title: 'Work from anywhere',
-        description: 'Work from anywhere you like. We offer remote working to all the employees',
-    },
-    {
-        icon: 'coffee',
-        title: 'Work/life balance',
-        description: 'Flexible work hours gives you complete balance with your personal and professional life.',
+        icon: 'refresh-cw',
+        title: 'Процесс автоматжуулалт',
+        description: 'Таны өдөр тутамдаа хийж, цаг зарцуулдаг үйлдлүүдийг автоматжуулан хөнгөвчилсөн',
     },
 ];
 
