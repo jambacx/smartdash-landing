@@ -215,9 +215,13 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
                         </Nav.Item>
                     ) : (
                         <Nav.Item as="li">
-                            <NavLink to="/auth/login" className="nav-link btn me-2 shadow-none">
+                            <a
+                                href="https://www.admin.smartdash.mn/authentication/login"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="nav-link btn me-2 shadow-none">
                                 Нэвтрэх
-                            </NavLink>
+                            </a>
                         </Nav.Item>
                     )}
 

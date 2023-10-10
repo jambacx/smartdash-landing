@@ -53,7 +53,6 @@ const Login = () => {
                 <p className="text-muted mt-1 mb-4">
                     {t('Админ самбарт нэвтрэхийн тулд имэйл хаяг, нууц үгээ оруулна уу.')}
                 </p>
-
                 {error && (
                     <Alert variant="danger" className="mb-3">
                         {error}

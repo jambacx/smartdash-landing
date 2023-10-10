@@ -16,10 +16,14 @@ const Hero4 = () => {
                         </h1>
                         <p className="mt-4 fs-17">AI Solution powered by Mobicom corporation</p>
                         <div className="pt-3 pt-sm-5">
-                            {/* <Button>Эхлэх</Button> */}
-                            <Link to="/auth/login" className="btn btn-primary">
+                            <a
+                                href="https://www.admin.smartdash.mn/authentication/login"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="btn btn-primary">
                                 Нэвтрэх
-                            </Link>
+                            </a>
+
                             <Button variant="outline-primary" className="ms-2">
                                 Дэлгэрэнгүй
                             </Button>
