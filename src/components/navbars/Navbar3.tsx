@@ -76,11 +76,13 @@ const Navbar3 = ({ isSticky, navClass, buttonClass, fixedWidth }: Navbar3Props) 
                                 </Nav.Item>
                             ) : (
                                 <Nav.Item as="li">
-                                    <NavLink
-                                        to="/auth/login"
+                                    <a
+                                        href="https://www.admin.smartdash.mn/authentication/login"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         className="btn btn-primary text-white pl-3 btn-sm me-2 fw-medium fs-15 shadow-none text-dark">
                                         Нэвтрэх
-                                    </NavLink>
+                                    </a>
                                 </Nav.Item>
                             )}
                             {/* <Nav.Item as="li">

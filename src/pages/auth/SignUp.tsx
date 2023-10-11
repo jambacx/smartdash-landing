@@ -53,8 +53,7 @@ const SignUp = () => {
                             {t('Log In')}
                         </Link>
                     </p>
-                }
-            >
+                }>
                 <h6 className="h5 mb-0 mt-3">{t('Create Your Account')}</h6>
                 <p className="text-muted mt-1 mb-4">
                     {t("Don't have an account? Create your account, it takes less than a minute.")}
